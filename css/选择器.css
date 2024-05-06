@@ -1,0 +1,47 @@
+input {
+    width: 200px;
+    height: 40px;
+    background-color: chartreuse;
+    color: white;
+    border: 3px solid;
+    font-size: 22px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+#btn3 {
+    width: 200px;
+    height: 40px;
+    background-color: aqua;
+    color: white;
+    border: 3px solid;
+    font-size: 22px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+#btn4 {
+    width: 200px;
+    height: 40px;
+    background-color: powderblue;
+    color: white;
+    border: 3px solid;
+    font-size: 22px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    border: 3px solid;
+    font-size: 22px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+.black {
+    background-color: black;
+}
