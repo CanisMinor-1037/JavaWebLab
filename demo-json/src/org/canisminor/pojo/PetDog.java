@@ -2,13 +2,13 @@ package org.canisminor.pojo;
 
 import java.util.Objects;
 
-public class Dog {
+public class PetDog {
     private String name;
 
-    public Dog() {
+    public PetDog() {
     }
 
-    public Dog(String name) {
+    public PetDog(String name) {
         this.name = name;
     }
 
@@ -24,7 +24,7 @@ public class Dog {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Dog dog = (Dog) o;
+        PetDog dog = (PetDog) o;
         return Objects.equals(name, dog.name);
     }
 
