@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var person1 = new Object();
+        person1.name = "Alice";
+        person1.age = 20;
+        person1.eat = function(food) {
+            console.log(this.name + " is eating " + food);
+        }
+
+        console.log(person1.name)
+        console.log(person1.age)
+        person1.eat("apples")
+
+        var person2 = {
+            "name": "Bob",
+            "age": 21,
+            "eat": function(food) {
+                console.log(this.name + " is eating " + food);
+            }
+        }
+
+        console.log(person2.name)
+        console.log(person2.age)
+        person2.eat("fish")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
