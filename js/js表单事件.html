@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function testFocus() {
+            console.log("获得焦点")
+        }
+
+        function testBlur() {
+            console.log("失去焦点")
+        }
+
+        function testChange(value) {
+            console.log("内容改变了: " + value)
+        }
+
+        function testSubmit() {
+            alert("表单提交");
+        }
+
+        function testSubmit2() {
+            var flag = confirm("确认提交表单吗?")
+            return flag;
+        }
+
+        function testSubmit3() {
+            var flag = confirm("确认提交表单吗?")
+            if (!flag) {
+                event.preventDefault();
+            }
+        }
+
+        function testSubmit4() {
+            prompt("输入任意值: ")
+        }
+
+        function testReset() {
+            alert("表单重置")
+        }
+
+    </script>
+</head>
+<body>
+    <form action="js引入方式1.html" method="get" onsubmit="testSubmit()" onreset="testReset()">
+        用户昵称: <input type="text" name="realName" onfocus="testFocus()" onblur="testBlur()" onchange="testChange(this.value)"> <br>
+        登录账户: <input type="text" name="loginName"> <br>
+        籍贯:
+        <select name="AncestralPlace" onchange="testChange(this.value)">
+            <option value="湖北">湖北</option>
+            <option value="湖南">湖南</option>
+            <option value="山东">山东</option>
+            <option value="山西">山西</option>
+            <option value="0" selected="true">-请选择-</option>
+        </select> 
+        <br>
+        <input type="submit" value="注册">
+        <input type="reset" value="清空">
+    </form>
+</body>
+</html>

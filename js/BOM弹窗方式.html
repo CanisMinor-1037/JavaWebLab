@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fun1() {
+            window.alert("Hello");
+        }
+
+        function fun2() {
+            var name = window.prompt("Hello, 请输入姓名: ");
+            console.log(name);
+        }
+
+        function fun3() {
+            var flag = window.confirm("是否确认？");
+            console.log(flag);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="fun1()">信息提示框</button><br>
+    <button onclick="fun2()">信息输入框</button><br>
+    <button onclick="fun3()">信息确认框</button><br>
+</body>
+</html>
