@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fun1() {
+            var div01 = document.getElementById("div01");
+            div01.innerText = "<h1>321</h1>";
+        }
+
+        function fun2() {
+            var div01 = document.getElementById("div01");
+            div01.innerHTML = "<h1>321</h1>";
+        }
+    </script>
+</head>
+<body>
+    <div id="div01">123</div>
+    <button onclick="fun1()">修改文本innerText</button>
+    <button onclick="fun2()">修改文本innerHTML</button>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fun1() {
+            sessionStorage.setItem("k1", "v1")
+            localStorage.setItem("k2", "v2")
+        }
+
+        function fun2() {
+            console.log(sessionStorage.getItem("k1"));
+            console.log(localStorage.getItem("k2"));
+        }
+
+        function fun3() {
+            sessionStorage.removeItem("k1");
+            localStorage.removeItem("k2");
+            // sessionStorage.clear()
+            // localStorage.clear()
+        }
+    </script>
+</head>
+<body>
+    <button onclick="fun1()">存储数据</button>
+    <button onclick="fun2()">读取数据</button>
+    <button onclick="fun3()">清空数据</button>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function addWuhan() {
+            var city = document.createElement("li"); // <li></li>
+            city.id = "Wuhan"; // <li id="Wuhan"></li>
+            city.innerText = "武汉"; // <li id="Wuhan">武汉</li>
+            var cities = document.getElementById("cities");
+            cities.appendChild(city);
+        }
+
+        function addTianjin() {
+            var city1 = document.createElement("li"); // <li></li>
+            city1.id = "Tianjin"; // <li id="Tianjin"></li>
+            city1.innerText = "天津"; // <li id="Tianjin">天津</li>
+            var cities = document.getElementById("cities");
+            var city2 = document.getElementById("Shanghai");
+            cities.insertBefore(city1, city2);
+        }
+
+        function replaceShenzhen() {
+            var city1 = document.createElement("li");
+            city1.id = "Shenyang";
+            city1.innerText = "沈阳";
+            var cities = document.getElementById("cities");
+            var city2 = document.getElementById("Shenzhen");
+            cities.replaceChild(city1, city2);
+        }
+
+        function deleteGuangzhou() {
+            var cities = document.getElementById("cities");
+            var city = document.getElementById("Guangzhou");
+            cities.removeChild(city);
+        }
+
+        function clearCities() {
+            var cities = document.getElementById("cities");
+            var city = cities.firstChild;
+            while (city != null) {
+                city.remove();
+                city = cities.firstChild;
+            }
+        }
+    </script>
+</head>
+<body>
+    <ul id="cities">
+        <li id="Beijing">北京</li>
+        <li id="Shanghai">上海</li>
+        <li id="Shenzhen">深圳</li>
+        <li id="Guangzhou">广州</li>
+    </ul>
+    <hr>
+    <button onclick="addWuhan()">增加武汉</button>
+    <button onclick="addTianjin()">增加天津</button>
+    <button onclick="replaceShenzhen()">替换深圳</button>
+    <button onclick="deleteGuangzhou()">删除广州</button>
+    <button onclick="clearCities()">清空城市列表</button>
+</body>
+</html>

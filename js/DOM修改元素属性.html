@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #text1 {
+            color: red;
+        }
+    </style>
+    <script>
+        function fun1() {
+            var text1 = document.getElementById("text1");
+            text1.setAttribute("type", "button");
+            text1.setAttribute("value", "321");
+        }
+
+        function fun2() {
+            var text1 = document.getElementById("text1");
+            text1.style.color = "blue";
+        }
+    </script>
+</head>
+<body>
+    <input id="text1" type="text" value="123">
+    <button onclick="fun1()">修改文本框123为按钮321</button>
+    <button onclick="fun2()">文本变蓝</button>
+</body>
+</html>
