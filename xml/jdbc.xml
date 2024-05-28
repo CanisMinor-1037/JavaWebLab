@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jdbc>
-    <dev id="env01">
+    <dev>
         <user>seed</user>
         <password>dees</password>
         <url>jdbc:mysql://localhost:3306/spring</url>
         <driver>com.mysql.cj.jdbc.Driver</driver>
     </dev>
-    <test id="env02">
+    <test>
         <user>seed</user>
         <password>dees</password>
         <url>jdbc:mysql://localhost:3306/spring</url>
         <driver>com.mysql.cj.jdbc.Driver</driver>
     </test>
-    <formal id="env03">
+    <formal>
         <user>seed</user>
         <password>dees</password>
         <url>jdbc:mysql://localhost:3306/spring</url>

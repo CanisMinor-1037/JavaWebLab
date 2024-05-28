@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script>
+        function checkUsername() {
+            var usernameReg = /^[0-9a-zA-Z]{5,10}$/
+            var usernameInputValue = document.getElementById("usernameInput").value;
+            var usernameMsg = document.getElementById("usernameMsg");
+            if (usernameReg.test(usernameInputValue)) {
+                usernameMsg.innerText = "用户名合法";
+            } else {
+                usernameMsg.innerText = "用户名不合法，格式是5-10位的字母或数字";
+                return false;
+            }
+            return true;
+        }
+
+        function checkPassword() {
+            var passwordReg = /^[0-9]{6}$/
+            var passwordInputValue = document.getElementById("passwordInput").value;
+            var passwordMsg = document.getElementById("passwordMsg");
+            if (passwordReg.test(passwordInputValue)) {
+                passwordMsg.innerText = "密码合法";
+            } else {
+                passwordMsg.innerText = "密码不合法，格式是6位数字"
+                return false;
+            }
+            return true;
+        }
+
+        function checkPasswordConfirmation() {
+            var passwordInputValue = document.getElementById("passwordInput").value;
+            var passwordConfirmationValue = document.getElementById("passwordConfirmation").value;
+            var passwordConfirmationMsg = document.getElementById("passwordConfirmationMsg");
+            if (passwordInputValue == passwordConfirmationValue) {
+                passwordConfirmationMsg.innerText = "密码一致";
+            } else {
+                passwordConfirmationMsg.innerText = "密码不一致";
+                return false;
+            }
+            return true;
+        }
+
+        function checkForm() {
+            var flagUsername = checkUsername()
+            var flagPassword = checkPassword()
+            var flagPasswordConfirmation = checkPasswordConfirmation()
+            return flagPassword&&flagUsername&&flagPasswordConfirmation;
+        }
+    </script>
+</head>
+<body>
+    <h1>欢迎使用日程管理系统</h1>
+    <h3>请注册</h3>
+    <form method="post" action="/user/register" onsubmit="return checkForm()">
+        <table>
+            <tr>
+                <td>请输入账号</td>
+                <td>
+                    <input id="usernameInput" type="text" onblur="checkUsername()">
+                    <span id="usernameMsg"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>请输入密码</td>
+                <td>
+                    <input id="passwordInput" type="password" onblur="checkPassword()">
+                    <span id="passwordMsg"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>确认密码</td>
+                <td>
+                    <input id="passwordConfirmation" type="password" onblur="checkPasswordConfirmation()">
+                    <span id="passwordConfirmationMsg"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="注册">
+                    <input type="reset" value="重置">
+                    <button><a href="./login.html">去登录</a></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
