@@ -7,21 +7,33 @@
         <servlet-name>userServlet</servlet-name>
         <servlet-class>org.canisminor.servlet.UserServlet</servlet-class>
     </servlet>
-    
-    <servlet>
-        <servlet-name>servlet1</servlet-name>
-        <servlet-class>org.canisminor.servlet.Servlet1</servlet-class>
-    </servlet>
-    
+
     <servlet-mapping>
         <servlet-name>userServlet</servlet-name>
         <url-pattern>/userServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>servletLifecycle</servlet-name>
+        <servlet-class>org.canisminor.servlet.ServletLifecycle</servlet-class>
+        <load-on-startup>6</load-on-startup>
+    </servlet>
+
     <servlet-mapping>
-        <servlet-name>servlet1</servlet-name>
-        <url-pattern>*.action</url-pattern>
+        <servlet-name>servletLifecycle</servlet-name>
+        <url-pattern>/servletLifecycle</url-pattern>
     </servlet-mapping>
+
+<!--    <servlet>-->
+<!--        <servlet-name>servlet1</servlet-name>-->
+<!--        <servlet-class>org.canisminor.servlet.Servlet1</servlet-class>-->
+<!--        <load-on-startup>6</load-on-startup>-->
+<!--    </servlet> -->
+<!--    -->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>servlet1</servlet-name>-->
+<!--        <url-pattern>*.action</url-pattern>-->
+<!--    </servlet-mapping> -->
     
 <!--    <servlet-mapping>-->
 <!--        <servlet-name>servlet1</servlet-name>-->

@@ -10,38 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ced10df-2d55-45dc-b916-7d7adc40dac7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../demo-xml/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo-xml/.idea/libraries/dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo-xml/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo-xml/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo-xml/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo-xml/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo-xml/demo-xml.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo-xml/lib/dom4j-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo-xml/resources/jdbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo-xml/src/TestDom4j.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo1_web1_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webapps.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1-web1/demo1-web1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1-web1/src/org/canisminor/demo/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1-web1/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1-web1/web/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo1-web1/web/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo1_web1_war_exploded/WEB-INF/classes/org/canisminor/demo/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo1_web1_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo1_web1_war_exploded/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/demo1_web1_war_exploded/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet-demo1/servlet-demo1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet-demo1/src/org/canisminor/servlet/Servlet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet-demo1/src/org/canisminor/servlet/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet-demo1/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet-demo1/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet-demo1/web/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet-demo1/src/org/canisminor/servlet/ServletLifecycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/servlet_demo1_war_exploded/WEB-INF/classes/org/canisminor/servlet/Servlet1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/servlet_demo1_war_exploded/WEB-INF/classes/org/canisminor/servlet/Servlet1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/servlet_demo1_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/servlet_demo1_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/servlet-demo1/org/canisminor/servlet/Servlet1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/servlet-demo1/org/canisminor/servlet/Servlet1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-demo1/src/org/canisminor/servlet/Servlet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-demo1/src/org/canisminor/servlet/Servlet1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-demo1/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-demo1/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -237,6 +212,8 @@
       <workItem from="1716855319435" duration="674000" />
       <workItem from="1716864638693" duration="651000" />
       <workItem from="1716879773701" duration="6137000" />
+      <workItem from="1716903790995" duration="1790000" />
+      <workItem from="1716943604027" duration="3705000" />
     </task>
     <servers />
   </component>
@@ -245,6 +222,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$PROJECT_DIR$/../../Program Files/apache-tomcat-10.1.24/lib/servlet-api.jar!/jakarta/servlet/annotation/WebServlet.class</url>
+          <line>21</line>
+          <properties class="jakarta.servlet.annotation.WebServlet" method="urlPatterns">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
