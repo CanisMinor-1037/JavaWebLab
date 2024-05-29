@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo1-web1/demo1-web1.iml" filepath="$PROJECT_DIR$/demo1-web1/demo1-web1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/servlet-demo1/servlet-demo1.iml" filepath="$PROJECT_DIR$/servlet-demo1/servlet-demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo2-servlet1/demo2-servlet1.iml" filepath="$PROJECT_DIR$/demo2-servlet1/demo2-servlet1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo3-servletconfig/demo3-servletconfig.iml" filepath="$PROJECT_DIR$/demo3-servletconfig/demo3-servletconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/webapps.iml" filepath="$PROJECT_DIR$/.idea/webapps.iml" />
     </modules>
   </component>

@@ -1,2 +1,6 @@
-package org.canisminor.servlet;public class Servlet1 {
+package org.canisminor.servlet;
+
+import jakarta.servlet.http.HttpServlet;
+
+public class Servlet1 extends HttpServlet {
 }
