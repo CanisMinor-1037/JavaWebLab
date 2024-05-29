@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="servlet-demo1:war exploded" />
+      <artifact name="demo3-servletconfig:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,29 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ced10df-2d55-45dc-b916-7d7adc40dac7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo3_servletconfig_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2-servlet1/src/org/canisminor/servlet/Servlet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2-servlet1/src/org/canisminor/servlet/ServletLifecycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2-servlet1/src/org/canisminor/servlet/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2-servlet1/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2-servlet1/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2-servlet1/web/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3-servletconfig/demo3-servletconfig.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3-servletconfig/src/org/canisminor/servlet/Servlet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3-servletconfig/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/servlet_demo1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/servlet_demo1_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webapps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webapps.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3-servletconfig/src/org/canisminor/servlet/Servlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3-servletconfig/src/org/canisminor/servlet/Servlet3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/servlet_demo1_war_exploded/WEB-INF/classes/org/canisminor/servlet/Servlet1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/servlet_demo1_war_exploded/WEB-INF/classes/org/canisminor/servlet/Servlet1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/servlet-demo1/org/canisminor/servlet/Servlet1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/servlet-demo1/org/canisminor/servlet/Servlet1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-demo1/servlet-demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo2-servlet1/demo2-servlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-demo1/src/org/canisminor/servlet/Servlet1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-demo1/src/org/canisminor/servlet/ServletLifecycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-demo1/src/org/canisminor/servlet/UserServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-demo1/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-demo1/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-demo1/web/test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3-servletconfig/src/org/canisminor/servlet/Servlet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo3-servletconfig/src/org/canisminor/servlet/Servlet1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3-servletconfig/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo3-servletconfig/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,9 +97,9 @@
       <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="servlet-demo1:war exploded">
+        <artifact name="demo3-servletconfig:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/servlet_demo1" />
+            <option name="CONTEXT_PATH" value="/demo3_servletconfig" />
           </settings>
         </artifact>
       </deployment>
@@ -195,7 +177,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="servlet-demo1:war exploded" />
+          <artifact name="demo3-servletconfig:war exploded" />
         </option>
       </method>
     </configuration>
@@ -231,7 +213,7 @@
       <workItem from="1716903790995" duration="1790000" />
       <workItem from="1716943604027" duration="4773000" />
       <workItem from="1716966137750" duration="4969000" />
-      <workItem from="1716971802576" duration="1373000" />
+      <workItem from="1716971802576" duration="4430000" />
     </task>
     <servers />
   </component>
