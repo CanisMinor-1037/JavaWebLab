@@ -1,6 +1,7 @@
 package org.canisminor.servlet;
 
 import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebInitParam;
 import jakarta.servlet.annotation.WebServlet;
@@ -8,6 +9,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Enumeration;
 
@@ -32,5 +34,16 @@ public class Servlet3 extends HttpServlet {
             String parameterName = initParameterNames.nextElement();
             System.out.println(parameterName + ": " + servletConfig.getInitParameter(parameterName));
         }
+
+        ServletContext servletContext = getServletContext();
+        String path = servletContext.getRealPath("upload");
+        System.out.println(path);
+        String filename = "test.txt";
+        //FileOutputStream fileOutputStream = new FileOutputStream(path + filename);
+
+        String contextPath = servletContext.getContextPath();
+        System.out.println(contextPath);
+
+        System.out.println(servletContext.getAttribute("k_2"));
     }
 }

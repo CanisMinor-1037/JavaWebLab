@@ -10,11 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ced10df-2d55-45dc-b916-7d7adc40dac7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo3-servletconfig/src/org/canisminor/servlet/Servlet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3-servletconfig/src/org/canisminor/servlet/Servlet3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webapps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webapps.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo3-servletconfig/src/org/canisminor/servlet/Servlet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo3-servletconfig/src/org/canisminor/servlet/Servlet1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3-servletconfig/src/org/canisminor/servlet/Servlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo3-servletconfig/src/org/canisminor/servlet/Servlet2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3-servletconfig/src/org/canisminor/servlet/Servlet3.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo3-servletconfig/src/org/canisminor/servlet/Servlet3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo3-servletconfig/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo3-servletconfig/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/demo3_servletconfig_war_exploded/WEB-INF/classes/org/canisminor/servlet/Servlet1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo3_servletconfig_war_exploded/WEB-INF/classes/org/canisminor/servlet/Servlet1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/demo3_servletconfig_war_exploded/WEB-INF/classes/org/canisminor/servlet/Servlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo3_servletconfig_war_exploded/WEB-INF/classes/org/canisminor/servlet/Servlet2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/demo3_servletconfig_war_exploded/WEB-INF/classes/org/canisminor/servlet/Servlet3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/demo3_servletconfig_war_exploded/WEB-INF/classes/org/canisminor/servlet/Servlet3.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../Program Files/apache-tomcat-10.1.24/lib/servlet-api.jar!/jakarta/servlet/annotation/WebServlet.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../../Program Files/apache-tomcat-10.1.24/lib/servlet-api.jar!/jakarta/servlet/http/HttpServlet.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -69,7 +74,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JavaWebLab/webapps/demo2-servlet1",
+    "last_opened_file_path": "C:/Users/a/Downloads/monokai-pro-jetbrains.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,7 +84,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "http.proxy",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -213,7 +218,10 @@
       <workItem from="1716903790995" duration="1790000" />
       <workItem from="1716943604027" duration="4773000" />
       <workItem from="1716966137750" duration="4969000" />
-      <workItem from="1716971802576" duration="4430000" />
+      <workItem from="1716971802576" duration="4461000" />
+      <workItem from="1717030292823" duration="936000" />
+      <workItem from="1717031458147" duration="19000" />
+      <workItem from="1717031496871" duration="4463000" />
     </task>
     <servers />
   </component>

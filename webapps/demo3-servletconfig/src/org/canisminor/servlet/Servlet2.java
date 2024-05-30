@@ -1,6 +1,7 @@
 package org.canisminor.servlet;
 
 import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -21,5 +22,14 @@ public class Servlet2 extends HttpServlet {
             String parameterName = initParameterNames.nextElement();
             System.out.println(parameterName + ": " + servletConfig.getInitParameter(parameterName));
         }
+
+        ServletContext servletContext1 = servletConfig.getServletContext();
+        Enumeration<String> initParameterNames1 = servletContext1.getInitParameterNames();
+        while (initParameterNames1.hasMoreElements()) {
+            String parameterName = initParameterNames1.nextElement();
+            System.out.println(parameterName + ": " + servletContext1.getInitParameter(parameterName));
+        }
+
+        System.out.println(servletContext1.getAttribute("k_1"));
     }
 }
