@@ -5,7 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
+        class Person {
+            #name;
+            age;
+
+            get name() {
+                return this.#name;
+            }
+
+            set name(name) {
+                this.#name = name;
+            }
+
+            eat(food) {
+                console.log(`${this.#name}正在吃${food}`)
+            }
+
+            constructor(name, age) {
+                this.#name = name;
+                this.age = age;
+            }
+        }
+
+        class Math {
+            static sum(a, b) {
+                return a + b;
+            }
+        }
+
+        class Student extends Person{
+            score;
+            study() {
+                console.log(`${this.name}正在学习`);
+            }
+
+            constructor(name, age, score) {
+                super(name, age);
+                this.score = score;
+            }
+        }
+
+        let person = new Person("Alice", 10);
+        console.log(person);
+        person.eat("apple");
+
+        console.log(Math.sum(1, 2));
         
+        let student = new Student("Bob", 10, 10);
+        student.study();
     </script>
 </head>
 <body>
